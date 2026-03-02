@@ -54,7 +54,7 @@ window.HISTORIA_BANK = [
         "Reino tras la crisis romana"
       ]
     ],
-    "exp": "Romanización implica adopción de lengua latina, derecho y vida urbana; las colonizaciones fenicias y griegas introducen comercio y asentamientos costeros; los pueblos prerromanos configuran diversidad cultural; el reino visigodo ocupa el vacío tras la crisis romana.",
+    "exp": "Romanización: difusión del latín, derecho, ciudades, calzadas y modelo económico romano. Pueblos prerromanos: diversidad cultural (íberos/celtas/tartesios). Colonizaciones: contactos mediterráneos que introducen comercio y técnicas. Visigodos: reinos germánicos tras la crisis del Imperio.",
     "mnemo": null
   },
   {
@@ -69,7 +69,7 @@ window.HISTORIA_BANK = [
       "Romanización",
       "Reino visigodo"
     ],
-    "exp": "Para un texto largo, suele funcionar el hilo: Prehistoria → Roma → Visigodos.",
+    "exp": "Orden general: Prehistoria (Paleolítico/Neolítico) → Edad Antigua (romanización) → transición a reinos germánicos (visigodos).",
     "mnemo": "PNRV: Paleolítico‑Neolítico‑Roma‑Visigodos."
   },
   {
@@ -157,7 +157,7 @@ window.HISTORIA_BANK = [
         "Fin del reino nazarí de Granada"
       ]
     ],
-    "exp": "Estas fechas te ordenan el relato: 711 inicio de la conquista musulmana; 756 Emirato independiente (Córdoba) consolida poder propio; 929 Califato de Córdoba (máximo esplendor); 1492 final del reino nazarí de Granada, cierre de la presencia política musulmana.",
+    "exp": "711 inicia el dominio musulmán; 756 crea un poder propio en Córdoba (emirato independiente); 929 eleva ese poder a califato; 1492 cierra el ciclo con la toma de Granada. Úsalas para ordenar etapas y causas.",
     "mnemo": "7‑5‑9‑14: 711‑756‑929‑1492 (anclas)."
   },
   {
@@ -173,7 +173,7 @@ window.HISTORIA_BANK = [
       "Emirato independiente",
       "Reino nazarí"
     ],
-    "exp": "Orden típico: Dependiente → Independiente → Califato → Taifas → Nazarí.",
+    "exp": "Primero Emirato dependiente; luego Emirato independiente; después el Califato (esplendor); tras su ruptura surgen Taifas; finalmente queda el reino nazarí.",
     "mnemo": "E‑E‑C‑T‑N."
   },
   {
@@ -256,7 +256,7 @@ window.HISTORIA_BANK = [
         "Fin de la Reconquista"
       ]
     ],
-    "exp": "Empareja instituciones e ideas clave: te sirven para un desarrollo tipo PAU.",
+    "exp": "Empareja instituciones e ideas clave: te sirven para un desarrollo tipo PAU. Añade siempre 1 causa y 1 consecuencia para convertirlo en párrafo PAU.",
     "mnemo": null
   },
   {
@@ -413,7 +413,7 @@ window.HISTORIA_BANK = [
         "Restauración"
       ]
     ],
-    "exp": "Contexto de cada fecha: 1833 abre la etapa liberal y las guerras carlistas tras la muerte de Fernando VII. 1868 ('La Gloriosa') derriba a Isabel II y abre el Sexenio Democrático. 1873 marca la Primera República, con gran inestabilidad. 1874 restaura la monarquía borbónica e inicia la Restauración.",
+    "exp": "Estas fechas son anclas del XIX: 1833 abre la regencia y el carlismo; 1868 derriba Isabel II; 1873 marca la Primera República; 1874 restaura la monarquía borbónica. Si las manejas, sitúas cualquier redacción del período.",
     "mnemo": null
   },
   {
@@ -428,7 +428,7 @@ window.HISTORIA_BANK = [
       "Restauración",
       "Revolución de 1868"
     ],
-    "exp": "Regencias → 1868 → Sexenio → Restauración.",
+    "exp": "La secuencia del XIX es: regencias y consolidación liberal → revolución de 1868 → Sexenio Democrático (experimentos políticos) → Restauración (nuevo sistema estable).",
     "mnemo": "R‑G‑S‑R (Regencias‑Gloriosa‑Sexenio‑Restauración)."
   },
   {
@@ -501,7 +501,7 @@ window.HISTORIA_BANK = [
         "Fin de la monarquía y proclamación republicana"
       ]
     ],
-    "exp": "Contexto de cada hito: 1909 (Semana Trágica) muestra el malestar social y la crisis colonial. 1917 reúne crisis militar, política y social. 1921 (Annual) hunde el prestigio del régimen. 1923 llega la dictadura de Primo de Rivera como 'solución' autoritaria. 1931 cae la monarquía y se proclama la República.",
+    "exp": "1909 (Semana Trágica) muestra tensión social y colonial; 1917 evidencia crisis múltiple; 1921 (Annual) hunde prestigio militar; 1923 abre la dictadura de Primo; 1931 cae la monarquía. Es la secuencia de deterioro del sistema.",
     "mnemo": "Escalera 9‑17‑21‑23‑31."
   },
   {
@@ -574,7 +574,7 @@ window.HISTORIA_BANK = [
       "Elecciones del Frente Popular (1936)",
       "Gobierno provisional"
     ],
-    "exp": "Proclamación → Gobierno provisional → Constitución → Frente Popular.",
+    "exp": "Primero se proclama la República; se forma gobierno provisional; se aprueba la Constitución; y en 1936 llega el Frente Popular en un contexto polarizado.",
     "mnemo": "P‑P‑C‑F (Proclamación‑Provisional‑Constitución‑Frente Popular)."
   },
   {
@@ -624,7 +624,7 @@ window.HISTORIA_BANK = [
   }
 ];
 window.HISTORIA_META = {
-  "title": "Historia PAU · Simulacro (v1)",
+  "title": "Historia PAU · Simulacro",
   "blocks": [
     {
       "id": "T1",

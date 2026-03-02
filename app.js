@@ -301,7 +301,7 @@ function topBar(sess){
     row,
     sess.mode==="simulacro" ? bar : el("div",{},[]),
     el("div",{class:"small",style:"margin-top:8px"},[
-      "Navegación: puedes volver atrás. En simulacro, el cronómetro corre en tiempo real; si pulsas “Pausa”, se detiene hasta reanudar. Si vuelves a Inicio, se reinicia el puntaje del simulacro."
+      "Navegación: puedes volver atrás. Si vuelves a Inicio, se reinicia el puntaje del simulacro.\n⏯ La pausa detiene el contador (puedes reanudar)."
     ])
   ]);
 }
@@ -453,7 +453,7 @@ function renderMC(q, sess, body){
       ok ? "✅ Correcto" : `❌ Incorrecto · Correcta: ${q.opciones[q.correcta]}`
     ]));
     fb.appendChild(el("div",{class:"note",style:"margin-top:8px"},[
-      (ok ? "✔️ Por qué es correcta: " : "📌 Explicación: ")+(q.exp || "")
+      (ok ? "📚 Explicación: " : "📚 Explicación: ")+(q.exp || "")
     ]));
     btn.disabled = true;
   };
@@ -572,7 +572,7 @@ function renderCloze(q, sess, body){
       ]));
     }
     fb.appendChild(el("div",{class:"note",style:"margin-top:8px"},[
-      (okAll ? "✔️ Explicación: " : "📌 Explicación: ")+(q.exp || "")
+      (okAll ? "📚 Explicación: " : "📚 Explicación: ")+(q.exp || "")
     ]));
     // Full solution
     const solParts = (q.texto||"").split("________");
@@ -632,13 +632,14 @@ function renderMatch(q, sess, body){
       if(item.meta.selL && item.meta.selR){
         const L = item.meta.selL, R = item.meta.selR;
         const ok = q.pairs.some(p=>p[0]===L && p[1]===R);
-        playFeedbackSound(ok ? "ok" : "bad");
         if(ok){
+          playFeedbackSound("ok");
           item.meta.done["L:"+L] = true;
           item.meta.done["R:"+R] = true;
           item.meta.map[L] = R;
           item.meta.selL = null; item.meta.selR = null;
         }else{
+          playFeedbackSound("bad");
           item.meta.selR = null;
         }
         setSession(sess); renderQuestion();
@@ -668,13 +669,7 @@ function renderMatch(q, sess, body){
       okAll ? "✅ Todo emparejado" : `⚠️ Te faltan ${q.pairs.length-doneCount} emparejamientos`
     ]));
     fb.appendChild(el("div",{class:"note",style:"margin-top:8px"},[
-      (okAll ? "✔️ Explicación: " : "📌 Explicación: ")+(q.exp || "")
-    ]));
-    // Show full correct mapping for study value
-    fb.appendChild(el("div",{class:"note",style:"margin-top:8px"},[
-      "Parejas correctas:
-" + q.pairs.map(p=>`• ${p[0]} → ${p[1]}`).join("
-")
+      (okAll ? "📚 Explicación: " : "📚 Explicación: ")+(q.exp || "")
     ]));
     btnCheck.disabled = true;
   };
@@ -727,7 +722,7 @@ function renderOrder(q, sess, body){
       okAll ? "✅ Orden correcto" : "❌ Orden incorrecto"
     ]));
     fb.appendChild(el("div",{class:"note",style:"margin-top:8px"},[
-      (okAll ? "✔️ Explicación: " : "📌 Explicación: ")+(q.exp || "")
+      (okAll ? "📚 Explicación: " : "📚 Explicación: ")+(q.exp || "")
     ]));
     if(!okAll){
       fb.appendChild(el("div",{class:"note",style:"margin-top:8px"},["Orden correcto: "+q.items_ordered.join(" → ")]));
@@ -798,7 +793,7 @@ function renderOpen(q, sess, body){
     fb.appendChild(el("div",{class:"note",style:"margin-top:8px"},[
       "✅ Incluiste: " + (hits.length? hits.join(", ") : "—") + "\n" +
       "❌ Faltó: " + (miss.length? miss.join(", ") : "—") + "\n" +
-      (q.exp ? ("📌 Explicación: "+q.exp) : "")
+      (q.exp ? ("📚 Explicación: "+q.exp) : "")
     ]));
     fb.appendChild(el("div",{class:"note",style:"margin-top:10px"},["🧾 Respuesta modelo (para comparar y mejorar):\n"+(q.respuesta_modelo||"")]));
   };
