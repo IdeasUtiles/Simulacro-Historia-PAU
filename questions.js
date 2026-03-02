@@ -54,7 +54,7 @@ window.HISTORIA_BANK = [
         "Reino tras la crisis romana"
       ]
     ],
-    "exp": "Empareja cada concepto con su idea clave (te sirve para redactar un párrafo completo).",
+    "exp": "Romanización implica adopción de lengua latina, derecho y vida urbana; las colonizaciones fenicias y griegas introducen comercio y asentamientos costeros; los pueblos prerromanos configuran diversidad cultural; el reino visigodo ocupa el vacío tras la crisis romana.",
     "mnemo": null
   },
   {
@@ -157,7 +157,7 @@ window.HISTORIA_BANK = [
         "Fin del reino nazarí de Granada"
       ]
     ],
-    "exp": "Fechas ancla para redactar con seguridad (si recuerdas estas, el resto 'cuelga').",
+    "exp": "Estas fechas te ordenan el relato: 711 inicio de la conquista musulmana; 756 Emirato independiente (Córdoba) consolida poder propio; 929 Califato de Córdoba (máximo esplendor); 1492 final del reino nazarí de Granada, cierre de la presencia política musulmana.",
     "mnemo": "7‑5‑9‑14: 711‑756‑929‑1492 (anclas)."
   },
   {
@@ -413,7 +413,7 @@ window.HISTORIA_BANK = [
         "Restauración"
       ]
     ],
-    "exp": "Fechas‑puente para situar cualquier redacción del XIX español.",
+    "exp": "Contexto de cada fecha: 1833 abre la etapa liberal y las guerras carlistas tras la muerte de Fernando VII. 1868 ('La Gloriosa') derriba a Isabel II y abre el Sexenio Democrático. 1873 marca la Primera República, con gran inestabilidad. 1874 restaura la monarquía borbónica e inicia la Restauración.",
     "mnemo": null
   },
   {
@@ -501,7 +501,7 @@ window.HISTORIA_BANK = [
         "Fin de la monarquía y proclamación republicana"
       ]
     ],
-    "exp": "Si memorizas esta escalera, redactas el tema 8 casi solo.",
+    "exp": "Contexto de cada hito: 1909 (Semana Trágica) muestra el malestar social y la crisis colonial. 1917 reúne crisis militar, política y social. 1921 (Annual) hunde el prestigio del régimen. 1923 llega la dictadura de Primo de Rivera como 'solución' autoritaria. 1931 cae la monarquía y se proclama la República.",
     "mnemo": "Escalera 9‑17‑21‑23‑31."
   },
   {
@@ -624,7 +624,7 @@ window.HISTORIA_BANK = [
   }
 ];
 window.HISTORIA_META = {
-  "title": "Historia PAU · Simulacro Azul (3º Trimestre · v1)",
+  "title": "Historia PAU · Simulacro (v1)",
   "blocks": [
     {
       "id": "T1",
