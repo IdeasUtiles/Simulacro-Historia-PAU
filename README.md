@@ -14,3 +14,6 @@ Sube todos los archivos a la raíz del repo y activa GitHub Pages en `main / (ro
 
 
 v4.1: arranque reforzado con bootstrap inmediato y captura visible de errores.
+
+
+v4.2: app.js reescrito en estilo ES5-compatible para evitar problemas de compatibilidad/parseo.
