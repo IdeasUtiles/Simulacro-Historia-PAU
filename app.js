@@ -192,4 +192,19 @@ function stats(){
 function tableFrom(obj,isBlock){return el('table',{},[el('thead',{},[el('tr',{},[el('th',{},[isBlock?'Bloque':'Tipo']),el('th',{},['Vistas']),el('th',{},['OK']),el('th',{},['Fallo']),el('th',{},['Acierto'])])]),el('tbody',{},Object.entries(obj).map(([k,r])=>el('tr',{},[el('td',{},[isBlock?k:(k==='mc'?'Test':k==='cloze'?'Huecos':k==='match'?'Emparejar':'Abierta')]),el('td',{},[String(r.seen)]),el('td',{},[String(r.ok)]),el('td',{},[String(r.fail)]),el('td',{},[r.seen?(Math.round(r.ok/r.seen*100)+'%'):'—'])])))])}
 function exportStats(){const d=localStorage.getItem(SK)||'{}';navigator.clipboard.writeText(d).then(()=>alert('Stats JSON copiado ✅')).catch(()=>prompt('Copia el JSON:',d))}
 function resetAll(){if(!confirm('¿Seguro? Se borran estadísticas y sesión guardada.'))return;localStorage.removeItem(SK);localStorage.removeItem(XK);stopTimer();intro()}
-window.addEventListener('load', intro);
+function bootApp(){
+  try{
+    intro();
+  }catch(err){
+    const app = document.getElementById('app');
+    if(app){
+      app.innerHTML = `<div class="card"><h2>Error al arrancar la app</h2><div class="note">${String(err)}</div></div>`;
+    }
+    console.error(err);
+  }
+}
+if(document.readyState === 'loading'){
+  document.addEventListener('DOMContentLoaded', bootApp);
+}else{
+  bootApp();
+}
