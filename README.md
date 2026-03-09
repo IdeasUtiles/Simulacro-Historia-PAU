@@ -17,3 +17,6 @@ v4.1: arranque reforzado con bootstrap inmediato y captura visible de errores.
 
 
 v4.2: app.js reescrito en estilo ES5-compatible para evitar problemas de compatibilidad/parseo.
+
+
+v4.3: renombrado de la función `topBar` -> `renderTopBar` para evitar conflicto con el identificador global `top` del navegador.

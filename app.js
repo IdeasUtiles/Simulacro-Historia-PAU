@@ -250,7 +250,7 @@
     render(false);
   }
 
-  function topBar(s){
+  function renderTopBar(s){
     var done = s.items.filter(function(i){ return i.ok !== null; }).length;
     return el('div', {'class':'card'}, [
       el('div', {'class':'row'}, [
@@ -275,7 +275,7 @@
     if(!x){ intro(); return; }
 
     var wrap = el('div', {}, []);
-    wrap.appendChild(topBar(s));
+    wrap.appendChild(renderTopBar(s));
 
     if(force && s.mode === 'train-theme'){
       var cards = (META.study_cards && META.study_cards[s.block]) ? META.study_cards[s.block] : [];
