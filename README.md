@@ -1,22 +1,12 @@
-# Historia PAU · Entrenamiento + Simulacro (v4)
+# Historia Global · Simulacro Visual
 
 Incluye:
-- pantalla inicial
-- explicación de mecánicas
-- selección de modo
+- actualización a 10 temas
+- diseño más visual
 - entrenamiento por tema
 - entrenamiento global
-- simulacro de 90 minutos
+- simulacro global de 90 minutos
 - estadísticas
 
 ## Deploy
-Sube todos los archivos a la raíz del repo y activa GitHub Pages en `main / (root)`.
-
-
-v4.1: arranque reforzado con bootstrap inmediato y captura visible de errores.
-
-
-v4.2: app.js reescrito en estilo ES5-compatible para evitar problemas de compatibilidad/parseo.
-
-
-v4.3: renombrado de la función `topBar` -> `renderTopBar` para evitar conflicto con el identificador global `top` del navegador.
+Sustituye los archivos del repo actual por los de este ZIP y deja GitHub Pages en `main / (root)`.

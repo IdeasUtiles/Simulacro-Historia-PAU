@@ -1,4 +1,4 @@
-window.HISTORIA_BANK = [
+window.HISTORIA_BANK=[
   {
     "id": "T1-M1",
     "bloque": "T1",
@@ -6,18 +6,18 @@ window.HISTORIA_BANK = [
     "tipo": "mc",
     "pregunta": "En el Paleolítico predominó…",
     "opciones": [
-      "Sedentarismo agrario",
-      "Nomadismo y economía depredadora",
-      "Vida urbana",
-      "Industria textil"
+      "el sedentarismo agrícola",
+      "el nomadismo y la caza-recolección",
+      "la vida urbana",
+      "la industrialización"
     ],
     "correcta": 1,
-    "exp": "El Paleolítico se caracteriza por grupos nómadas, caza, pesca y recolección."
+    "exp": "Paleolítico: grupos nómadas, caza, pesca y recolección."
   },
   {
     "id": "T1-C1",
     "bloque": "T1",
-    "tema": "Prehistoria",
+    "tema": "Neolítico",
     "tipo": "cloze",
     "texto": "En el Neolítico aparecieron el ________ y la economía ________.",
     "blanks": [
@@ -34,7 +34,7 @@ window.HISTORIA_BANK = [
       "nomadismo",
       "depredadora"
     ],
-    "exp": "El cambio neolítico introduce asentamientos estables y producción de alimentos."
+    "exp": "El Neolítico introduce agricultura y ganadería."
   },
   {
     "id": "T1-MA1",
@@ -43,41 +43,42 @@ window.HISTORIA_BANK = [
     "tipo": "match",
     "pairs": [
       [
-        "Romanización",
-        "Latín, derecho y ciudades"
+        "Íberos",
+        "sur y este"
       ],
       [
-        "Íberos",
-        "Sur y este"
+        "Romanización",
+        "asimilación de modelos romanos"
       ],
       [
         "Visigodos",
-        "Reino tras la crisis romana"
+        "reino de Toledo"
       ]
     ],
-    "exp": "La romanización transformó lengua, derecho, urbanismo y economía."
+    "exp": "Ordena el tema 1 de forma básica."
   },
   {
     "id": "T1-A1",
     "bloque": "T1",
-    "tema": "Redacción PAU",
+    "tema": "Tema 1",
     "tipo": "open",
-    "pregunta": "Explica el paso del Paleolítico al Neolítico.",
-    "respuesta_modelo": "El Paleolítico se caracterizó por la economía depredadora basada en la caza y recolección. En el Neolítico aparecieron la agricultura y la ganadería, lo que permitió el sedentarismo, los poblados y nuevas formas de organización social.",
+    "pregunta": "Resume la evolución desde el Paleolítico hasta la monarquía visigoda.",
+    "respuesta_modelo": "El Paleolítico se caracteriza por el nomadismo y la caza-recolección. El Neolítico introduce sedentarismo, agricultura y ganadería. Después aparecen pueblos prerromanos y colonizaciones mediterráneas, la conquista romana impulsa la romanización y, tras la crisis del Imperio, se consolida la monarquía visigoda de Toledo.",
     "must_include": [
       "Paleolítico",
       "Neolítico",
-      "agricultura",
-      "ganadería",
-      "sedentarismo"
+      "sedentarismo",
+      "prerromanos",
+      "romanización",
+      "visigoda"
     ],
-    "exp": "La clave es explicar el cambio económico y social de la revolución neolítica.",
-    "min_chars": 220
+    "exp": "La respuesta debe seguir un orden cronológico claro.",
+    "min_chars": 170
   },
   {
     "id": "T2-M1",
     "bloque": "T2",
-    "tema": "Edad Media",
+    "tema": "Al-Ándalus",
     "tipo": "mc",
     "pregunta": "La conquista musulmana de la Península comenzó en…",
     "opciones": [
@@ -87,29 +88,29 @@ window.HISTORIA_BANK = [
       "1492"
     ],
     "correcta": 1,
-    "exp": "711 marca el inicio de la conquista musulmana y de Al‑Ándalus."
+    "exp": "711 es la fecha inicial de Al-Ándalus."
   },
   {
     "id": "T2-C1",
     "bloque": "T2",
-    "tema": "Al‑Ándalus",
+    "tema": "Al-Ándalus",
     "tipo": "cloze",
-    "texto": "Secuencia típica: Emirato ________ → Califato → Taifas → reino ________.",
+    "texto": "La secuencia política básica es emirato, ________, taifas y reino ________.",
     "blanks": [
       {
-        "a": "dependiente"
+        "a": "califato"
       },
       {
         "a": "nazarí"
       }
     ],
     "bank": [
-      "dependiente",
+      "califato",
       "nazarí",
-      "federal",
+      "condado",
       "visigodo"
     ],
-    "exp": "Primero dependencia, luego esplendor y finalmente Granada."
+    "exp": "Califato y Granada son referencias esenciales."
   },
   {
     "id": "T2-MA1",
@@ -127,64 +128,65 @@ window.HISTORIA_BANK = [
       ],
       [
         "1492",
-        "Fin de Granada"
+        "fin de Granada"
       ]
     ],
-    "exp": "Estas fechas ordenan el tema medieval."
+    "exp": "Tres fechas clave para el tema 2."
   },
   {
     "id": "T2-A1",
     "bloque": "T2",
-    "tema": "Redacción PAU",
+    "tema": "Tema 2",
     "tipo": "open",
-    "pregunta": "Resume la evolución política de Al‑Ándalus.",
-    "respuesta_modelo": "Al‑Ándalus pasó por emirato dependiente e independiente, alcanzó su mayor esplendor con el Califato de Córdoba, se fragmentó en taifas y terminó con el reino nazarí de Granada en 1492.",
+    "pregunta": "Explica la evolución política de Al-Ándalus.",
+    "respuesta_modelo": "Al-Ándalus pasó por emirato dependiente e independiente, alcanzó su máximo esplendor con el Califato de Córdoba y después se fragmentó en taifas. Las intervenciones almorávide y almohade intentaron frenar el avance cristiano. Finalmente quedó reducido al reino nazarí de Granada, que desapareció en 1492.",
     "must_include": [
       "emirato",
       "califato",
       "taifas",
-      "Granada",
-      "1492"
+      "almorávides",
+      "almohades",
+      "Granada"
     ],
-    "exp": "La respuesta debe ordenar cronológicamente las etapas principales.",
-    "min_chars": 220
+    "exp": "Conviene explicar la sucesión de etapas y el avance cristiano.",
+    "min_chars": 170
   },
   {
     "id": "T3-M1",
     "bloque": "T3",
-    "tema": "Edad Moderna",
+    "tema": "Reyes Católicos",
     "tipo": "mc",
     "pregunta": "La unión de Castilla y Aragón fue…",
     "opciones": [
-      "Un Estado unitario",
-      "Una unión dinástica",
-      "Una república federal",
-      "Una anexión de Aragón"
+      "un Estado unitario",
+      "una unión dinástica",
+      "una república federal",
+      "una anexión militar"
     ],
     "correcta": 1,
-    "exp": "Fue una unión dinástica: misma Corona, distintas leyes e instituciones."
+    "exp": "Los Reyes Católicos mantuvieron instituciones diferenciadas."
   },
   {
     "id": "T3-C1",
     "bloque": "T3",
     "tema": "Reyes Católicos",
     "tipo": "cloze",
-    "texto": "Los Reyes Católicos reforzaron el poder real mediante los ________ y la Santa ________.",
+    "texto": "Los Reyes Católicos reforzaron el poder real con los ________ y los ________.",
     "blanks": [
       {
         "a": "Consejos"
       },
       {
-        "a": "Hermandad"
+        "a": "corregidores"
       }
     ],
     "bank": [
       "Consejos",
-      "Hermandad",
-      "Constitución",
-      "República"
+      "corregidores",
+      "consulados",
+      "cabildos"
     ],
-    "exp": "Consejos y Santa Hermandad reforzaron la autoridad real."
+    "exp": "Consejos y corregidores son básicos."
   },
   {
     "id": "T3-MA1",
@@ -194,38 +196,36 @@ window.HISTORIA_BANK = [
     "pairs": [
       [
         "1492",
-        "Granada y Colón"
+        "toma de Granada"
       ],
       [
-        "1571",
-        "Lepanto"
+        "1494",
+        "Tratado de Tordesillas"
       ],
       [
-        "1588",
-        "Armada Invencible"
+        "Carlos I",
+        "expansión imperial"
       ]
     ],
-    "exp": "Estas fechas resumen expansión y conflictos de la Monarquía Hispánica."
+    "exp": "Relaciona Estado y expansión."
   },
   {
     "id": "T3-A1",
     "bloque": "T3",
-    "tema": "Redacción PAU",
+    "tema": "Tema 3",
     "tipo": "open",
-    "pregunta": "Explica la unión dinástica e instituciones de los Reyes Católicos.",
-    "respuesta_modelo": "Los Reyes Católicos construyeron una monarquía basada en la unión dinástica de Castilla y Aragón. Cada reino conservó sus leyes e instituciones, pero la Corona reforzó su poder con Consejos, corregidores y Santa Hermandad.",
+    "pregunta": "Resume la unión dinástica, la guerra de Granada y la expansión hacia América.",
+    "respuesta_modelo": "Los Reyes Católicos iniciaron una unión dinástica entre Castilla y Aragón, reforzaron el poder real y culminaron la guerra de Granada en 1492. Ese mismo año comenzó la expansión atlántica que desembocó en el descubrimiento y posterior colonización de América.",
     "must_include": [
-      "unión",
-      "dinástica",
+      "unión dinástica",
       "Castilla",
       "Aragón",
-      "Consejos",
-      "corregidores",
-      "Santa",
-      "Hermandad"
+      "Granada",
+      "1492",
+      "América"
     ],
-    "exp": "No confundas unión dinástica con unificación política.",
-    "min_chars": 220
+    "exp": "Conecta construcción del Estado y expansión exterior.",
+    "min_chars": 170
   },
   {
     "id": "T4-M1",
@@ -234,20 +234,20 @@ window.HISTORIA_BANK = [
     "tipo": "mc",
     "pregunta": "Las abdicaciones de Bayona supusieron…",
     "opciones": [
-      "La vuelta de Fernando VII",
-      "La cesión de la Corona a Napoleón",
-      "La Constitución de 1812",
-      "La independencia de Portugal"
+      "la vuelta de Fernando VII",
+      "la cesión de la Corona a Napoleón",
+      "la Constitución de 1812",
+      "la independencia de Portugal"
     ],
     "correcta": 1,
-    "exp": "Bayona permitió la imposición de José I y desencadenó la resistencia."
+    "exp": "En Bayona la Corona pasó a Napoleón y a José I."
   },
   {
     "id": "T4-C1",
     "bloque": "T4",
-    "tema": "Crisis del Antiguo Régimen",
+    "tema": "Carlos IV",
     "tipo": "cloze",
-    "texto": "Motín de ________ → abdicaciones de ________.",
+    "texto": "Tratado de Fontainebleau, Motín de ________ y abdicaciones de ________.",
     "blanks": [
       {
         "a": "Aranjuez"
@@ -259,10 +259,10 @@ window.HISTORIA_BANK = [
     "bank": [
       "Aranjuez",
       "Bayona",
-      "Cádiz",
-      "Sagunto"
+      "Sagunto",
+      "Cádiz"
     ],
-    "exp": "Aranjuez precipita la crisis; Bayona la consuma."
+    "exp": "Secuencia básica del hundimiento de Carlos IV."
   },
   {
     "id": "T4-MA1",
@@ -280,30 +280,28 @@ window.HISTORIA_BANK = [
       ],
       [
         "1814",
-        "Regreso de Fernando VII"
+        "regreso de Fernando VII"
       ]
     ],
-    "exp": "Esta secuencia organiza guerra, revolución política y restauración absolutista."
+    "exp": "Fechas-esqueleto del tema 4."
   },
   {
     "id": "T4-A1",
     "bloque": "T4",
-    "tema": "Redacción PAU",
+    "tema": "Tema 4",
     "tipo": "open",
-    "pregunta": "Explica la Guerra de la Independencia y el papel de las Juntas.",
-    "respuesta_modelo": "La Guerra de la Independencia comenzó en 1808 tras Bayona y el levantamiento del 2 de mayo. Las Juntas asumieron la soberanía en nombre de Fernando VII y organizaron la resistencia. La guerra combinó ejército regular, guerrilla y ayuda británica.",
+    "pregunta": "Explica el reinado de Carlos IV y el inicio de la Guerra de la Independencia.",
+    "respuesta_modelo": "El reinado de Carlos IV estuvo marcado por Godoy, la crisis financiera y la influencia de la Revolución Francesa. El Tratado de Fontainebleau permitió la entrada de tropas francesas, el Motín de Aranjuez precipitó la caída de Godoy y las abdicaciones de Bayona llevaron a José I al trono. El levantamiento del 2 de mayo inició la guerra.",
     "must_include": [
-      "1808",
+      "Carlos IV",
+      "Godoy",
+      "Fontainebleau",
+      "Aranjuez",
       "Bayona",
-      "2",
-      "mayo",
-      "Juntas",
-      "guerrilla",
-      "Fernando",
-      "VII"
+      "José I"
     ],
-    "exp": "Añade dimensión política, no solo militar.",
-    "min_chars": 220
+    "exp": "El eje es la transición desde la crisis monárquica hasta la guerra.",
+    "min_chars": 170
   },
   {
     "id": "T5-M1",
@@ -318,26 +316,26 @@ window.HISTORIA_BANK = [
       "1874"
     ],
     "correcta": 1,
-    "exp": "La muerte de Fernando VII abrió el conflicto sucesorio y el primer carlismo."
+    "exp": "Se abre tras la muerte de Fernando VII."
   },
   {
     "id": "T5-C1",
     "bloque": "T5",
-    "tema": "Estado Liberal",
+    "tema": "Liberalismo",
     "tipo": "cloze",
-    "texto": "Mendizábal impulsó la desamortización de bienes del ________.",
+    "texto": "El primer liberalismo isabelino incluye el Estatuto Real y la Constitución de ________.",
     "blanks": [
       {
-        "a": "clero"
+        "a": "1837"
       }
     ],
     "bank": [
-      "clero",
-      "ejército",
-      "Estado",
-      "municipio"
+      "1837",
+      "1812",
+      "1869",
+      "1876"
     ],
-    "exp": "La desamortización buscó recursos para la Hacienda y apoyo al liberalismo."
+    "exp": "1837 es una fecha básica del tema 5."
   },
   {
     "id": "T5-MA1",
@@ -346,42 +344,37 @@ window.HISTORIA_BANK = [
     "tipo": "match",
     "pairs": [
       [
-        "1833",
-        "Regencia y carlismo"
+        "María Cristina",
+        "regencia"
       ],
       [
-        "1868",
-        "Gloriosa"
+        "Convenio de Vergara",
+        "fin principal de la guerra carlista"
       ],
       [
-        "1873",
-        "Primera República"
-      ],
-      [
-        "1874",
-        "Restauración"
+        "La Gloriosa",
+        "caída de Isabel II"
       ]
     ],
-    "exp": "Estas fechas ordenan la construcción del liberalismo."
+    "exp": "Relaciona figuras y hechos esenciales."
   },
   {
     "id": "T5-A1",
     "bloque": "T5",
-    "tema": "Redacción PAU",
+    "tema": "Tema 5",
     "tipo": "open",
-    "pregunta": "Explica la primera guerra carlista y su relación con el liberalismo.",
-    "respuesta_modelo": "La primera guerra carlista estalló en 1833 por el conflicto sucesorio tras la muerte de Fernando VII, pero también enfrentó absolutismo tradicional y liberalismo. El conflicto favoreció la consolidación del nuevo Estado liberal.",
+    "pregunta": "Resume la construcción del Estado liberal entre 1833 y 1874.",
+    "respuesta_modelo": "Tras la muerte de Fernando VII se abrió el conflicto sucesorio y la primera guerra carlista, mientras la regencia de María Cristina inició la implantación del liberalismo. El proceso continuó con moderados y progresistas, el reinado de Isabel II y terminó en la crisis del sistema isabelino y el Sexenio Democrático.",
     "must_include": [
       "1833",
-      "guerra",
-      "carlista",
-      "sucesión",
+      "carlismo",
+      "María Cristina",
       "liberalismo",
-      "Isabel",
-      "II"
+      "Isabel II",
+      "Sexenio"
     ],
-    "exp": "Haz visible el doble eje: dinástico e ideológico.",
-    "min_chars": 220
+    "exp": "Conviene seguir la secuencia regencias-reinado-Sexenio.",
+    "min_chars": 170
   },
   {
     "id": "T6-M1",
@@ -390,183 +383,184 @@ window.HISTORIA_BANK = [
     "tipo": "mc",
     "pregunta": "El sistema canovista se basó en…",
     "opciones": [
-      "Soberanía popular directa",
-      "Turno pacífico entre conservadores y liberales",
-      "Dictadura militar",
-      "República"
+      "pluralismo abierto",
+      "turno pacífico entre conservadores y liberales",
+      "dictadura militar permanente",
+      "república federal"
     ],
     "correcta": 1,
-    "exp": "El canovismo buscó estabilidad mediante alternancia pactada."
+    "exp": "El turno pacífico fue el núcleo del sistema."
   },
   {
     "id": "T6-C1",
     "bloque": "T6",
     "tema": "Restauración",
     "tipo": "cloze",
-    "texto": "La Constitución de ________ fue la base jurídica de la Restauración.",
+    "texto": "La Restauración se apoya en la Constitución de ________ y en el ________ de partidos.",
     "blanks": [
       {
         "a": "1876"
+      },
+      {
+        "a": "turno"
       }
     ],
     "bank": [
       "1876",
-      "1812",
+      "turno",
       "1931",
-      "1845"
+      "bloque"
     ],
-    "exp": "La Constitución de 1876 dio cobertura al sistema canovista."
+    "exp": "Constitución de 1876 y turno resumen el sistema."
   },
   {
     "id": "T6-MA1",
     "bloque": "T6",
-    "tema": "Restauración",
+    "tema": "Sistema canovista",
     "tipo": "match",
     "pairs": [
       [
         "Sandhurst",
-        "Programa de la vuelta borbónica"
+        "programa de Alfonso XII"
       ],
       [
-        "Sagunto",
-        "Pronunciamiento de Martínez Campos"
+        "caciquismo",
+        "control local del voto"
       ],
       [
-        "1898",
-        "Crisis colonial"
+        "pucherazo",
+        "fraude electoral"
       ]
     ],
-    "exp": "Estas referencias explican consolidación y crisis del régimen."
+    "exp": "Teoría y práctica del régimen."
   },
   {
     "id": "T6-A1",
     "bloque": "T6",
-    "tema": "Redacción PAU",
+    "tema": "Tema 6",
     "tipo": "open",
-    "pregunta": "Explica el sistema canovista y el turno de partidos.",
-    "respuesta_modelo": "El sistema canovista pretendió asegurar la estabilidad mediante una monarquía constitucional con dos grandes partidos, conservador y liberal, que se alternaban pacíficamente. Sin embargo, funcionó con encasillamiento, caciquismo y pucherazo.",
+    "pregunta": "Explica el sistema canovista y sus mecanismos de control político.",
+    "respuesta_modelo": "La Restauración se organizó en torno a una monarquía constitucional respaldada por la Constitución de 1876 y la alternancia entre conservadores y liberales. Sin embargo, el sistema se sostuvo mediante caciquismo, encasillamiento y pucherazo, lo que limitó la autenticidad del sistema parlamentario.",
     "must_include": [
       "Cánovas",
       "Constitución",
       "1876",
       "turno",
-      "conservador",
-      "liberal",
       "caciquismo",
       "pucherazo"
     ],
-    "exp": "Distingue teoría del sistema y práctica real.",
-    "min_chars": 220
+    "exp": "Distingue diseño político y funcionamiento real.",
+    "min_chars": 170
   },
   {
     "id": "T7-M1",
     "bloque": "T7",
     "tema": "Transformaciones del XIX",
     "tipo": "mc",
-    "pregunta": "Durante buena parte del siglo XIX España mantuvo…",
+    "pregunta": "Durante gran parte del siglo XIX España mantuvo…",
     "opciones": [
-      "Régimen demográfico moderno",
-      "Régimen demográfico antiguo",
-      "Natalidad y mortalidad bajas",
-      "Crecimiento explosivo"
+      "régimen demográfico moderno",
+      "régimen demográfico antiguo",
+      "natalidad y mortalidad bajas",
+      "crecimiento explosivo"
     ],
     "correcta": 1,
-    "exp": "La transición demográfica fue lenta."
+    "exp": "Persistieron altas tasas de natalidad y mortalidad."
   },
   {
     "id": "T7-C1",
     "bloque": "T7",
-    "tema": "Economía",
+    "tema": "Sociedad",
     "tipo": "cloze",
-    "texto": "Las desamortizaciones afectaron a bienes eclesiásticos y de los ________.",
+    "texto": "En el siglo XIX se pasó de la sociedad ________ a la sociedad de ________.",
     "blanks": [
       {
-        "a": "municipios"
+        "a": "estamental"
+      },
+      {
+        "a": "clases"
       }
     ],
     "bank": [
-      "municipios",
-      "ejércitos",
-      "romanos",
-      "astilleros"
+      "estamental",
+      "clases",
+      "feudal",
+      "privilegios"
     ],
-    "exp": "Las desamortizaciones cambiaron la estructura agraria."
+    "exp": "Cambio social básico del siglo XIX."
   },
   {
     "id": "T7-MA1",
     "bloque": "T7",
-    "tema": "Sociedad y economía",
+    "tema": "Conceptos",
     "tipo": "match",
     "pairs": [
       [
-        "Ildefonso Cerdá",
-        "Ensanche de Barcelona"
+        "régimen demográfico antiguo",
+        "alta natalidad y alta mortalidad"
       ],
       [
-        "Barrio de Salamanca",
-        "Ensanche burgués de Madrid"
+        "crisis de subsistencias",
+        "hambrunas periódicas"
       ],
       [
-        "Proletariado urbano",
-        "Nueva clase industrial"
+        "Cataluña",
+        "excepción industrial"
       ]
     ],
-    "exp": "Asocia espacio urbano y cambio social."
+    "exp": "Tres ideas muy repetidas en el tema 7."
   },
   {
     "id": "T7-A1",
     "bloque": "T7",
-    "tema": "Redacción PAU",
+    "tema": "Tema 7",
     "tipo": "open",
-    "pregunta": "Resume desamortizaciones, industrialización y cambio social.",
-    "respuesta_modelo": "Las desamortizaciones buscaron sanear la Hacienda y crear un mercado de la tierra. La industrialización fue tardía y desigual, con focos en Cataluña y País Vasco. Socialmente se consolidó una sociedad de clases con oligarquía y proletariado.",
+    "pregunta": "Resume las principales transformaciones económicas y sociales del siglo XIX.",
+    "respuesta_modelo": "La población española creció lentamente por la persistencia del régimen demográfico antiguo. La urbanización fue limitada, aunque Cataluña destacó como excepción. Socialmente se pasó de la sociedad estamental a la sociedad de clases y económicamente avanzaron el ferrocarril, las desamortizaciones y una industrialización desigual.",
     "must_include": [
-      "desamortizaciones",
-      "Hacienda",
-      "industrialización",
+      "régimen demográfico antiguo",
       "Cataluña",
-      "País",
-      "Vasco",
-      "sociedad",
-      "clases",
-      "proletariado"
+      "sociedad de clases",
+      "ferrocarril",
+      "desamortización",
+      "industrialización"
     ],
-    "exp": "Haz tres bloques: tierra, industria y clases.",
-    "min_chars": 220
+    "exp": "Combina población, sociedad y economía en una sola respuesta.",
+    "min_chars": 170
   },
   {
     "id": "T8-M1",
     "bloque": "T8",
     "tema": "Alfonso XIII",
     "tipo": "mc",
-    "pregunta": "La Semana Trágica de Barcelona estuvo ligada a…",
+    "pregunta": "La crisis de 1917 tuvo dimensión…",
     "opciones": [
-      "La abolición foral",
-      "El conflicto de Marruecos y los reservistas",
-      "La Constitución de 1876",
-      "La caída de Primo"
+      "solo militar",
+      "militar, política y social",
+      "solo religiosa",
+      "solo colonial"
     ],
     "correcta": 1,
-    "exp": "La cuestión de Marruecos desencadenó protesta social y anticlerical."
+    "exp": "La crisis de 1917 fue múltiple."
   },
   {
     "id": "T8-C1",
     "bloque": "T8",
-    "tema": "Crisis de la Restauración",
+    "tema": "Alfonso XIII",
     "tipo": "cloze",
-    "texto": "La crisis de 1917 fue militar, política y ________.",
+    "texto": "La Semana Trágica ocurrió en 1909 y el desastre de ________ en 1921.",
     "blanks": [
       {
-        "a": "social"
+        "a": "Annual"
       }
     ],
     "bank": [
-      "social",
-      "dinástica",
-      "colonial",
-      "religiosa"
+      "Annual",
+      "Guadalete",
+      "Bailén",
+      "Luchana"
     ],
-    "exp": "En 1917 convergen varias crisis a la vez."
+    "exp": "Annual fue un golpe durísimo para el régimen."
   },
   {
     "id": "T8-MA1",
@@ -579,125 +573,189 @@ window.HISTORIA_BANK = [
         "Semana Trágica"
       ],
       [
-        "1921",
-        "Annual"
+        "1917",
+        "crisis del sistema"
       ],
       [
         "1923",
-        "Golpe de Primo"
-      ],
-      [
-        "1931",
-        "Caída de la monarquía"
+        "golpe de Primo de Rivera"
       ]
     ],
-    "exp": "Estas fechas muestran el deterioro progresivo del régimen."
+    "exp": "Tres fechas fundamentales del tema 8."
   },
   {
     "id": "T8-A1",
     "bloque": "T8",
-    "tema": "Redacción PAU",
+    "tema": "Tema 8",
     "tipo": "open",
     "pregunta": "Explica la crisis de la Restauración durante el reinado de Alfonso XIII.",
-    "respuesta_modelo": "Durante el reinado de Alfonso XIII el sistema de la Restauración entró en crisis por el desgaste del turnismo, el caciquismo y la conflictividad social. La Semana Trágica, la crisis de 1917 y Annual agravaron la situación. El golpe de Primo de Rivera abrió una dictadura que debilitó la monarquía hasta 1931.",
+    "respuesta_modelo": "El reinado de Alfonso XIII estuvo marcado por intentos regeneradores, pero la Restauración se fue deteriorando. La Semana Trágica de 1909, la crisis de 1917, el conflicto social y el desastre de Annual aceleraron el hundimiento del sistema, que desembocó en la dictadura de Primo de Rivera.",
     "must_include": [
-      "Alfonso",
-      "XIII",
-      "Restauración",
-      "turnismo",
-      "caciquismo",
-      "Semana",
-      "Trágica",
+      "Alfonso XIII",
+      "Semana Trágica",
       "1917",
       "Annual",
-      "Primo",
-      "Rivera",
-      "1931"
+      "Primo de Rivera"
     ],
-    "exp": "Estructura: causas de fondo → crisis → dictadura → desenlace.",
-    "min_chars": 220
+    "exp": "La respuesta debe mostrar el desgaste progresivo del sistema.",
+    "min_chars": 170
   },
   {
     "id": "T9-M1",
     "bloque": "T9",
     "tema": "Segunda República",
     "tipo": "mc",
-    "pregunta": "La proclamación de la II República se produjo tras…",
+    "pregunta": "La Segunda República se proclamó tras…",
     "opciones": [
-      "Una guerra civil",
-      "Las elecciones municipales de abril de 1931",
-      "Un referéndum",
-      "La muerte de Primo"
+      "un referéndum constitucional",
+      "las elecciones municipales de abril de 1931",
+      "el golpe de Primo de Rivera",
+      "la guerra civil"
     ],
     "correcta": 1,
-    "exp": "Las elecciones municipales precipitaron la salida de Alfonso XIII."
+    "exp": "El triunfo republicano en las ciudades precipitó la salida del rey."
   },
   {
     "id": "T9-C1",
     "bloque": "T9",
-    "tema": "1931",
+    "tema": "República",
     "tipo": "cloze",
-    "texto": "La Constitución de 1931 reconoció el sufragio ________.",
+    "texto": "La Constitución de 1931 reconoció el sufragio ________ y definió un Estado no ________.",
     "blanks": [
       {
         "a": "femenino"
+      },
+      {
+        "a": "confesional"
       }
     ],
     "bank": [
       "femenino",
+      "confesional",
       "censitario",
-      "masculino",
-      "indirecto"
+      "militar"
     ],
-    "exp": "El sufragio femenino fue una conquista clave."
+    "exp": "La Constitución de 1931 es clave por derechos y laicidad."
   },
   {
     "id": "T9-MA1",
     "bloque": "T9",
-    "tema": "Segunda República",
+    "tema": "Personajes",
     "tipo": "match",
     "pairs": [
       [
-        "Clara Campoamor",
-        "Defensa del sufragio femenino"
+        "Alcalá Zamora",
+        "presidencia republicana"
       ],
       [
         "Azaña",
-        "Reforma del ejército"
+        "reforma del ejército"
       ],
       [
-        "Alcalá Zamora",
-        "Presidente de la República"
+        "Clara Campoamor",
+        "sufragio femenino"
       ]
     ],
-    "exp": "Relaciona protagonistas y reformas para no mezclar nombres."
+    "exp": "Asocia personajes y reformas básicas."
   },
   {
     "id": "T9-A1",
     "bloque": "T9",
-    "tema": "Redacción PAU",
+    "tema": "Tema 9",
     "tipo": "open",
-    "pregunta": "Explica la proclamación de la Segunda República y la Constitución de 1931.",
-    "respuesta_modelo": "La Segunda República se proclamó en abril de 1931 tras el triunfo republicano en las elecciones municipales y el desgaste de la monarquía. La Constitución de 1931 definió España como república democrática y no confesional, reconoció derechos y libertades, abrió la vía autonómica y estableció el sufragio femenino.",
+    "pregunta": "Resume la proclamación de la Segunda República y la Constitución de 1931.",
+    "respuesta_modelo": "La Segunda República se proclamó en abril de 1931 tras el triunfo republicano en las ciudades y la salida de Alfonso XIII. El Gobierno provisional impulsó reformas y la Constitución de 1931 estableció un régimen democrático y laico, reconoció derechos, abrió la vía autonómica y consolidó el sufragio femenino.",
     "must_include": [
       "1931",
-      "Segunda",
-      "República",
+      "Segunda República",
       "Constitución",
-      "república",
-      "democrática",
-      "no",
-      "confesional",
+      "laico",
       "autonomía",
-      "sufragio",
-      "femenino"
+      "sufragio femenino"
     ],
-    "exp": "Incluye proceso, contenido y protagonistas.",
-    "min_chars": 220
+    "exp": "Hay que combinar proceso de proclamación y rasgos constitucionales.",
+    "min_chars": 170
+  },
+  {
+    "id": "T10-M1",
+    "bloque": "T10",
+    "tema": "Guerra Civil",
+    "tipo": "mc",
+    "pregunta": "El golpe militar que inició la Guerra Civil comenzó en…",
+    "opciones": [
+      "Madrid",
+      "Marruecos español",
+      "Barcelona",
+      "Bilbao"
+    ],
+    "correcta": 1,
+    "exp": "La sublevación comenzó en Melilla, Ceuta y Tetuán."
+  },
+  {
+    "id": "T10-C1",
+    "bloque": "T10",
+    "tema": "Guerra Civil",
+    "tipo": "cloze",
+    "texto": "La Guerra Civil comenzó en 1936 y terminó en ________, con la victoria del bando ________.",
+    "blanks": [
+      {
+        "a": "1939"
+      },
+      {
+        "a": "sublevado"
+      }
+    ],
+    "bank": [
+      "1939",
+      "sublevado",
+      "1931",
+      "republicano"
+    ],
+    "exp": "El conflicto termina en 1939 con la victoria franquista."
+  },
+  {
+    "id": "T10-MA1",
+    "bloque": "T10",
+    "tema": "Historiografía",
+    "tipo": "match",
+    "pairs": [
+      [
+        "Tuñón de Lara",
+        "interpretación marxista"
+      ],
+      [
+        "Stanley Payne",
+        "interpretación revisionista"
+      ],
+      [
+        "1 de abril de 1939",
+        "fin oficial de la guerra"
+      ]
+    ],
+    "exp": "El tema 10 une historiografía, desarrollo y consecuencias."
+  },
+  {
+    "id": "T10-A1",
+    "bloque": "T10",
+    "tema": "Tema 10",
+    "tipo": "open",
+    "pregunta": "Explica el desarrollo general de la Guerra Civil y sus consecuencias.",
+    "respuesta_modelo": "La Guerra Civil comenzó con el golpe militar de julio de 1936 y dividió España en dos zonas. Lo que iba a ser una sublevación rápida se convirtió en una guerra larga con fuerte intervención internacional. Terminó en 1939 con la victoria franquista y dejó enormes consecuencias demográficas, económicas, sociales y culturales, además del exilio y la represión de posguerra.",
+    "must_include": [
+      "1936",
+      "1939",
+      "dos zonas",
+      "intervención internacional",
+      "consecuencias",
+      "exilio",
+      "represión"
+    ],
+    "exp": "No basta con contar fases militares: hay que cerrar con las consecuencias.",
+    "min_chars": 170
   }
 ];
-window.HISTORIA_META = {
-  "title": "Historia PAU · Entrenamiento + Simulacro",
+window.HISTORIA_META={
+  "title": "Historia Global · Simulacro Visual",
   "blocks": [
     {
       "id": "T1",
@@ -711,7 +769,7 @@ window.HISTORIA_META = {
     },
     {
       "id": "T3",
-      "title": "Tema 3 · Reyes Católicos y Austrias",
+      "title": "Tema 3 · Edad Moderna",
       "order": 3
     },
     {
@@ -743,100 +801,55 @@ window.HISTORIA_META = {
       "id": "T9",
       "title": "Tema 9 · Segunda República",
       "order": 9
+    },
+    {
+      "id": "T10",
+      "title": "Tema 10 · Guerra Civil",
+      "order": 10
     }
   ],
-  "study_cards": {
+  "cards": {
     "T1": [
-      [
-        "Mapa mínimo",
-        "Paleolítico: nomadismo y caza‑recolección. Neolítico: sedentarismo y agricultura. Antigüedad: pueblos prerromanos, romanización y visigodos."
-      ],
-      [
-        "Mnemotecnia",
-        "P‑N‑R‑V"
-      ]
+      "P-N / prerromanos / romanización / visigodos",
+      "De la caza-recolección al reino visigodo."
     ],
     "T2": [
-      [
-        "Mapa mínimo",
-        "Al‑Ándalus: emirato, califato, taifas y reino nazarí. Reinos cristianos: Reconquista y repoblación."
-      ],
-      [
-        "Mnemotecnia",
-        "E‑C‑T‑N"
-      ]
+      "E-C-T-G",
+      "Al-Ándalus y avance cristiano."
     ],
     "T3": [
-      [
-        "Mapa mínimo",
-        "Reyes Católicos: unión dinástica, instituciones y Granada. Austrias: Carlos I, Felipe II y crisis del XVII."
-      ],
-      [
-        "Mnemotecnia",
-        "U‑I‑G / C‑F"
-      ]
+      "RC / América / Austrias",
+      "Unión dinástica, Granada y expansión."
     ],
     "T4": [
-      [
-        "Mapa mínimo",
-        "Carlos IV y Godoy, Bayona, Guerra de la Independencia, Cádiz y Fernando VII."
-      ],
-      [
-        "Mnemotecnia",
-        "C‑B‑G‑C‑F"
-      ]
+      "C-G-F-B-G-C-F",
+      "Carlos IV, Bayona, guerra y Cádiz."
     ],
     "T5": [
-      [
-        "Mapa mínimo",
-        "Regencias, carlismo, Isabel II, Gloriosa, Sexenio y Restauración."
-      ],
-      [
-        "Mnemotecnia",
-        "R‑C‑I‑G‑S‑R"
-      ]
+      "R-C-37-I-S",
+      "Regencias, carlismo, Isabel II y Sexenio."
     ],
     "T6": [
-      [
-        "Mapa mínimo",
-        "Sandhurst, Sagunto, Constitución de 1876, turno, caciquismo y 98."
-      ],
-      [
-        "Mnemotecnia",
-        "S‑S‑C‑T‑C‑98"
-      ]
+      "S-S-76-T-C",
+      "Sandhurst, Sagunto, turno y caciquismo."
     ],
     "T7": [
-      [
-        "Mapa mínimo",
-        "Demografía lenta, desamortizaciones, ferrocarril, industrialización desigual y sociedad de clases."
-      ],
-      [
-        "Mnemotecnia",
-        "D‑T‑I‑S"
-      ]
+      "D-U-C-F-I",
+      "Demografía, clases, ferrocarril e industria."
     ],
     "T8": [
-      [
-        "Mapa mínimo",
-        "1909, 1917, 1921, 1923, 1931."
-      ],
-      [
-        "Mnemotecnia",
-        "09‑17‑21‑23‑31"
-      ]
+      "R-09-17-21-23",
+      "Regeneracionismo, 1909, 1917, Annual y Primo."
     ],
     "T9": [
-      [
-        "Mapa mínimo",
-        "Proclamación, Constitución de 1931, reformas y polarización."
-      ],
-      [
-        "Mnemotecnia",
-        "P‑C‑R‑P"
-      ]
+      "31-SF-R",
+      "Constitución, sufragio femenino y reformas."
+    ],
+    "T10": [
+      "36-39 / zonas / consecuencias",
+      "Guerra, historiografía y secuelas."
     ]
   },
-  "simulacro_size": 28,
+  "simulacro_size": 32,
   "default_simulacro_minutes": 90
 };
