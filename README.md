@@ -10,3 +10,6 @@ Incluye:
 
 ## Deploy
 Sustituye los archivos del repo actual por los de este ZIP y deja GitHub Pages en `main / (root)`.
+
+
+v1.1: corrección de arranque por conflicto con identificador global del navegador.
